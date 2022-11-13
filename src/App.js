@@ -2,7 +2,7 @@ import Search from "./components/Search";
 import CurrentWeather from "./components/CurrentWeather";
 import Forecast from "./components/Forecast";
 import { useState } from "react";
-import { Helmet } from "react-helmet";
+
 
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
