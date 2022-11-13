@@ -34,6 +34,8 @@ function App() {
 
         <Search onSearchChange={handleOnSearchChange} />
 
+        {!currentWeather && !currentForecast && <img src="icons/weather.png" alt="weather" />}
+
         {currentWeather && <CurrentWeather data={currentWeather} />}
 
         {currentForecast && <Forecast data={currentForecast} />}
